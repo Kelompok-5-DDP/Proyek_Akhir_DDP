@@ -48,7 +48,7 @@ Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang mengga
 | Menu Login Admin Berhasil | <img width="275" height="314" alt="login admin berhasil" src="https://github.com/user-attachments/assets/8f99e310-2377-4bc7-8ec8-8aaf60d84df1" /> |
 | Tampilan Menu Pilihan 1. Kelola menu makanan (CRUD) | <img width="233" height="296" alt="Tampilan pilihan 1 " src="https://github.com/user-attachments/assets/26c313e9-d8bc-43fa-b380-e71e69264b5d" /> |
 | Tampilan 1. Lihat Menu | <img width="347" height="353" alt="1 Lihat Menu" src="https://github.com/user-attachments/assets/2e7957f2-fe1d-4b70-9986-0ec5a2a6c42d" /> |
-|
+| wuwuwyuw
 
 
 
