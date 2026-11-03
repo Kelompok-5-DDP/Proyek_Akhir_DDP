@@ -51,7 +51,45 @@ Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang mengga
 | 3. Menu Login Sebagai Admin | <img width="2132" height="4062" alt="Menu Utama" src="https://github.com/user-attachments/assets/e355827b-53fc-4b9f-8114-a4473eb11f0d" /> | <p>berikut ini adalah penjelasan alur flowchart dari menu login admin.</p><p><b>1. Proses Masuk (Login) dan Validasi Percobaan</b><br>Saat pengguna memasukkan username dan password admin, Sistem memeriksa kecocokan data melalui database (data.json). Jika data yang dimasukkan salah, sistem akan menghitung atau mengecek batas percobaan (maksimal 3 kali). Jika belum 3 kali, admin diminta memasukkan ulang username dan passwordnya. Jika kesalahan mencapai batas maksimal 3 kali, alur program akan menolak akses dan mengembalikan pengguna ke Menu Utama. Jika data yang dimasukkan benar, alur dilanjutkan masuk ke halaman Menu Admin dan menampilkan menu utama admin.</p><p><b>2. Tampilan Menu Utama Admin (Pilihan 0 - 5)</b><br>Setelah berhasil masuk, sistem menampilkan menu admin dan meminta input angka (0 sampai 5), jika menginput selain 0-5 akan menampilkan "Pilihan tidak valid":<br><br>• <b>Pilihan 1 (Kelola Menu Makanan):</b><br>Jika memilih (1.Kelola Menu Makanan), alur masuk ke sub-menu pengelolaan dengan pilihan angka 0 sampai 4:<br>&nbsp;&nbsp;- <i>Pilihan 1 (Tambah Menu):</i> Menginput nama dan kategori makanan, memvalidasi input (misal cek apakah kosong atau format angka harga valid), memasukkan harga, lalu sistem memperbarui dan menyimpan data permanen ke database (data.json) sebelum kembali ke menu kelola makanan.<br>&nbsp;&nbsp;- <i>Pilihan 2 (Ubah Menu):</i> Menampilkan daftar menu, memilih menu yang mau diubah, lalu memperbarui data dan menyimpannya kembali ke data.json.<br>&nbsp;&nbsp;- <i>Pilihan 3 (Hapus Menu):</i> Menampilkan daftar menu, memilih menu yang ingin dihapus, lalu menghapus data tersebut dari data.json.<br>&nbsp;&nbsp;- <i>Pilihan 4 (Lihat Menu):</i> Membaca database dan menampilkan daftar menu makanan.<br>&nbsp;&nbsp;- <i>Pilihan 0 (Keluar / Kembali):</i> Mengembalikan alur kembali ke Menu Utama Admin.<br><br>• <b>Pilihan 2 (Lihat Seluruh User):</b><br>Sistem membaca file data.json untuk menampilkan daftar akun pengguna (user) yang terdaftar di sistem, lalu kembali ke menu utama admin.<br><br>• <b>Pilihan 3 (Riwayat Seluruh Transaksi):</b><br>Sistem membaca data transaksi dari database (data.json), menampilkan seluruh catatan transaksi global, serta menyediakan opsi pencarian atau cetak invoice berdasarkan kode transaksi.<br><br>• <b>Pilihan 4 (Laporan Keuangan):</b><br>Sistem membaca dan memproses data riwayat transaksi dari data.json untuk menampilkan ringkasan laporan keuangan aplikasi.<br><br>• <b>Pilihan 5 (Lihat Menu Makanan):</b><br>Sistem membaca database (data.json) dan langsung menampilkan daftar menu makanan ke layar.<br><br>• <b>Pilihan 0 (Logout):</b><br>Mengakhiri sesi admin dan mengembalikan alur program keluar ke Menu Utama.</p> |
 | 4. Menu Login Sebagai User | <img width="2407" height="3662" alt="Menu User (1) jpg" src="https://github.com/user-attachments/assets/72bc1a40-2378-4495-9fe9-00051ec99fe2" /> | <p>berikut ini adalah penjelasan alur flowchart dari menu login User.</p><p><b>1. Proses Masuk (Login) dan Validasi Percobaan</b><br>Saat pengguna memasukkan username dan password admin, Sistem memeriksa kecocokan data melalui database (data.json). Jika data yang dimasukkan salah, sistem akan menghitung atau mengecek batas percobaan (maksimal 3 kali). Jika belum 3 kali, admin diminta memasukkan ulang username dan passwordnya. Jika kesalahan mencapai batas maksimal 3 kali, alur program akan menolak akses dan mengembalikan pengguna ke Menu Utama. Jika data yang dimasukkan benar, alur dilanjutkan masuk ke halaman Menu User dan menampilkan menu utama user.</p><p><b>2. Tampilan Menu Utama User (Pilihan 0 - 4)</b><br>Setelah berhasil masuk, sistem menampilkan menu admin dan meminta input angka (0 sampai 4):<br><br>• <b>Pilihan 1 (Lihat Menu Makanan):</b> Sistem membaca data dari database (data.json) dan menampilkan daftar menu makanan yang tersedia beserta harganya kepada user.<br>• <b>Pilihan 2 (Pesan Makanan):</b> Alur masuk ke proses pemesanan, di mana user memilih menu, memasukkan jumlah pesanan, melakukan pengecekan saldo e-money, memproses transaksi pembelian, hingga sistem memperbarui saldo dan menyimpan catatan riwayat transaksi secara permanen ke dalam database (data.json).<br>• <b>Pilihan 3 (Top-Up E-Money):</b> Alur bagi user untuk menambah saldo digital (e-money). Sistem memproses nominal top-up, lalu memperbarui saldo akun user tersebut dan menyimpannya kembali ke database (data.json).<br>• <b>Pilihan 4 (Riwayat Transaksi Saya):</b> Sistem membaca data transaksi dari database (data.json) khusus untuk menampilkan catatan riwayat pembelian atau transaksi yang pernah dilakukan oleh user yang bersangkutan.<br>• <b>Pilihan 0 (Logout):</b> Keluar dari menu user dan mengembalikan alur program keluar ke Menu Utama.</p> |
 
-HASIL OUTPUT PROGRAM
+## DAFTAR FITUR SETIAP ROLE DALAM PROGRAM
+Program memiliki tiga tingkat akses: Pengunjung (pelanggan yang belum melakukan registrasi/login), User (pelanggan), dan Admin. Setelah login, program akan memeriksa nilai Role pada akun (fungsi main, baris 590-593). Akun admin diarahkan ke Menu Admin, sedangkan akun lain ke Menu User.
+
+### 1. Pengunjung (Belum Login)
+
+Fitur tersedia di menu awal sebelum pengguna masuk ke akun.
+
+| No | Fitur | Penjelasan |
+|:--:|-------|------------|
+| 1 | Registrasi | Membuat akun baru dengan username minimal 4 karakter (hanya huruf, angka, dan garis bawah, serta belum dipakai) dan password minimal 6 karakter. Akun baru otomatis berperan user dengan saldo Rp0. |
+| 2 | Login | Masuk dengan username dan password, dengan batas maksimal 3 kali percobaan. |
+| 3 | Lihat Menu Makanan | Melihat daftar menu tanpa login, tetapi tidak bisa memesan. |
+
+### 2. Role User (Pelanggan)
+
+Role ini diperoleh dari registrasi. Menu User menampilkan saldo E-Money terkini di bagian atas.
+
+| No | Fitur | Penjelasan |
+|:--:|-------|------------|
+| 1 | Lihat Menu Makanan | Menampilkan daftar menu beserta ID, nama, kategori, harga, dan stok yang tersedia. |
+| 2 | Pesan Makanan | Memilih menu berdasarkan ID dan jumlah, dan boleh memilih beberapa menu sekaligus ke dalam keranjang. Jika menu yang sama dipilih lagi, jumlahnya digabung. Pesanan yang melebihi stok ditolak. Saat checkout, program menampilkan ringkasan dan total, lalu meminta konfirmasi pembayaran. Pesanan ditolak jika saldo tidak cukup. Jika berhasil, saldo dan stok berkurang otomatis, transaksi dicatat dengan kode unik, dan invoice ditampilkan. |
+| 3 | Top Up E-Money | Menambah saldo dengan nominal bilangan bulat minimal Rp1. Fitur ini diperlukan karena satu-satunya metode pembayaran adalah E-Money. |
+| 4 | Riwayat Transaksi Saya | Menampilkan hanya transaksi milik user yang sedang login, dan user dapat mencetak ulang invoice dengan memasukkan kode transaksi. User tidak bisa melihat transaksi akun lain. |
+| 5 | Logout | Kembali ke menu awal. |
+
+### 3. Role Admin
+
+Admin adalah satu akun bawaan (username admin) yang dibuat otomatis oleh program dan memiliki hak akses penuh.
+
+| No | Fitur | Penjelasan |
+|:--:|-------|------------|
+| 1 | Kelola Menu Makanan (CRUD) | Menambah menu (nama, kategori Makanan atau Minuman, harga, stok awal, dengan ID otomatis), mengubah menu (kolom yang dikosongkan mempertahankan nilai lama), menghapus menu setelah konfirmasi, dan melihat daftar menu. Karena menu awal kosong, admin harus menambahkan menu terlebih dahulu sebelum user dapat memesan. |
+| 2 | Lihat Seluruh Akun | Menampilkan daftar akun beserta role dan saldo, dan admin dapat menghapus akun user. Akun admin tidak dapat dihapus. |
+| 3 | Riwayat Seluruh Transaksi | Menampilkan transaksi semua pengguna, dan admin dapat mencetak ulang invoice dari transaksi mana pun. |
+| 4 | Laporan Ringkas | Menampilkan total pendapatan, jumlah transaksi, rata-rata transaksi, dan produk terlaris berdasarkan jumlah item terjual. |
+| 5 | Lihat Menu Makanan | Menampilkan daftar menu, sama seperti pada User. |
+| 6 | Logout | Kembali ke menu awal. |
+
+## HASIL OUTPUT PROGRAM
 
 | NAMA OUTPUT | GAMBAR OUTPUT |
 | :----: | :----: |
