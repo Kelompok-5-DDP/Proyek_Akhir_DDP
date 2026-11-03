@@ -40,7 +40,7 @@ Tujuan:
 5.	Menghasilkan bukti transaksi berupa invoice dan riwayat pemesanan yang tercatat otomatis.
 6.	Menerapkan konsep dasar pemrograman Python seperti percabangan, perulangan, fungsi, tuple, list, dictionary, penanganan error, dan pengelolaan file JSON.
 
-FLOWCHART
+## FLOWCHART
 
 Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang menggambarkan alur proses kerja sistem, mulai dari proses awal hingga proses akhir. Flowchart ini dibuat untuk mempermudah pemahaman terhadap tahapan dan alur kerja sistem yang dikembangkan.
 
