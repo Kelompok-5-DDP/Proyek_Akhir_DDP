@@ -3,9 +3,9 @@
 Sistem Pemesanan Makanan Online
 
 Anggota & Peran:
-1. Rafik Anugrah Yana (Programmer) 
-2. Septiya Maharani (Flowchart Admin, Registrasi)
-4. Nila Amelia Nabilla (Flowchart User, Menu Utama)
+1. Rafik Anugrah Yana (Konsep, Coding) 
+2. Septiya Maharani (Konsep flowchart login admin dan registrasi)
+4. Nila Amelia Nabilla (Konsep flowchart login user dan menu utama)
 5. Wahyu Farras Zaky (Laporan)
 
 Deskripsi:
