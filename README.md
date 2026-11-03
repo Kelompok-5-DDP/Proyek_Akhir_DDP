@@ -1,8 +1,8 @@
 # Proyek_Akhir_DDP
 
-Sistem Pemesanan Makanan Online
+### Sistem Pemesanan Makanan Online
 
-Anggota & Peran:
+## Anggota & Peran
 - Rafik Anugrah Yana (Konsep, Coding)
 1. Referensi konsep program
 2. Coding
@@ -22,7 +22,7 @@ Anggota & Peran:
 3. Mengecek alur flowchart
 
 
-Deskripsi:
+## Deskripsi
 
 Perkembangan teknologi informasi dan perubahan gaya hidup masyarakat membuat kebutuhan akan layanan pemesanan makanan yang cepat, praktis, dan terorganisir terus meningkat. Konsumen kini terbiasa mengakses informasi menu, harga, dan ketersediaan makanan dengan mudah. Mereka juga mengharapkan proses pemesanan dan pembayaran yang efisien. Namun, tidak semua pelaku usaha kuliner, terutama usaha skala kecil dan menengah seperti warung makan, kantin, dan kedai, bisa mengikuti perkembangan tersebut. Sebagian besar masih mengelola proses pemesanan secara manual melalui buku catatan, nota kertas, atau ingatan pegawai. Cara kerja seperti ini menimbulkan berbagai permasalahan, baik bagi pelaku usaha maupun pelanggan.
 Permasalahan tersebut meliputi: Pencatatan pesanan yang mudah terjadi kesalahan, menghitung total pembayaran yang membutuhkan waktu lama dan sering terjadi kesalahan hitung, pengelolaan stok yang tidak dipantau secara langsung, pengelolaan data menu dan harga yang kurang teratur, tidak adanya pencatatan riwayat transaksi yang rapi, rekapitulasi penjualan yang manual dan sering tidak tepat, sistem pembayaran tidak praktis dan sulit dicatat. Kurangnya kontrol atas hak akses dan keamanan data.
@@ -31,7 +31,7 @@ Berdasarkan permasalahan itu, dibutuhkan sistem pemesanan makanan yang bisa meng
 
 Untuk memenuhi kebutuhan ini, penelitian ini membuat program Sistem Pemesanan Makanan Online dengan bahasa pemrograman Python yang berjalan di terminal. Program ini punya fitur registrasi dan login dengan batas percobaan. Pengguna bisa mengelola menu secara penuh, seperti menambah, melihat, mengubah, dan menghapus menu. Ada juga fitur pemesanan dengan keranjang belanja. Pembayaran memakai saldo E-Money. Program bisa mencetak invoice, menampilkan riwayat transaksi, dan membuat laporan ringkas penjualan. Semua data disimpan secara permanen dalam file JSON. Program ini dibuat sebagai prototipe dasar yang menunjukkan konsep sistem pemesanan makanan online dan bisa dikembangkan lagi menjadi aplikasi berbasis web atau mobile dengan basis data dan layanan pembayaran yang sesungguhnya.
 
-Tujuan:
+## Tujuan
 
 1.	Membuat program pemesanan makanan berbasis Python dengan pemisahan hak akses admin dan user.
 2.	Menyediakan sistem registrasi dan login yang aman dengan validasi data dan batas percobaan.
@@ -40,7 +40,7 @@ Tujuan:
 5.	Menghasilkan bukti transaksi berupa invoice dan riwayat pemesanan yang tercatat otomatis.
 6.	Menerapkan konsep dasar pemrograman Python seperti percabangan, perulangan, fungsi, tuple, list, dictionary, penanganan error, dan pengelolaan file JSON.
 
-## FLOWCHART
+## Flowchart
 
 Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang menggambarkan alur proses kerja sistem, mulai dari proses awal hingga proses akhir. Flowchart ini dibuat untuk mempermudah pemahaman terhadap tahapan dan alur kerja sistem yang dikembangkan.
 
@@ -51,7 +51,7 @@ Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang mengga
 | 3. Menu Login Sebagai Admin | <img width="2132" height="4062" alt="Menu Utama" src="https://github.com/user-attachments/assets/e355827b-53fc-4b9f-8114-a4473eb11f0d" /> | <p>berikut ini adalah penjelasan alur flowchart dari menu login admin.</p><p><b>1. Proses Masuk (Login) dan Validasi Percobaan</b><br>Saat pengguna memasukkan username dan password admin, Sistem memeriksa kecocokan data melalui database (data.json). Jika data yang dimasukkan salah, sistem akan menghitung atau mengecek batas percobaan (maksimal 3 kali). Jika belum 3 kali, admin diminta memasukkan ulang username dan passwordnya. Jika kesalahan mencapai batas maksimal 3 kali, alur program akan menolak akses dan mengembalikan pengguna ke Menu Utama. Jika data yang dimasukkan benar, alur dilanjutkan masuk ke halaman Menu Admin dan menampilkan menu utama admin.</p><p><b>2. Tampilan Menu Utama Admin (Pilihan 0 - 5)</b><br>Setelah berhasil masuk, sistem menampilkan menu admin dan meminta input angka (0 sampai 5), jika menginput selain 0-5 akan menampilkan "Pilihan tidak valid":<br><br>• <b>Pilihan 1 (Kelola Menu Makanan):</b><br>Jika memilih (1.Kelola Menu Makanan), alur masuk ke sub-menu pengelolaan dengan pilihan angka 0 sampai 4:<br>&nbsp;&nbsp;- <i>Pilihan 1 (Tambah Menu):</i> Menginput nama dan kategori makanan, memvalidasi input (misal cek apakah kosong atau format angka harga valid), memasukkan harga, lalu sistem memperbarui dan menyimpan data permanen ke database (data.json) sebelum kembali ke menu kelola makanan.<br>&nbsp;&nbsp;- <i>Pilihan 2 (Ubah Menu):</i> Menampilkan daftar menu, memilih menu yang mau diubah, lalu memperbarui data dan menyimpannya kembali ke data.json.<br>&nbsp;&nbsp;- <i>Pilihan 3 (Hapus Menu):</i> Menampilkan daftar menu, memilih menu yang ingin dihapus, lalu menghapus data tersebut dari data.json.<br>&nbsp;&nbsp;- <i>Pilihan 4 (Lihat Menu):</i> Membaca database dan menampilkan daftar menu makanan.<br>&nbsp;&nbsp;- <i>Pilihan 0 (Keluar / Kembali):</i> Mengembalikan alur kembali ke Menu Utama Admin.<br><br>• <b>Pilihan 2 (Lihat Seluruh User):</b><br>Sistem membaca file data.json untuk menampilkan daftar akun pengguna (user) yang terdaftar di sistem, lalu kembali ke menu utama admin.<br><br>• <b>Pilihan 3 (Riwayat Seluruh Transaksi):</b><br>Sistem membaca data transaksi dari database (data.json), menampilkan seluruh catatan transaksi global, serta menyediakan opsi pencarian atau cetak invoice berdasarkan kode transaksi.<br><br>• <b>Pilihan 4 (Laporan Keuangan):</b><br>Sistem membaca dan memproses data riwayat transaksi dari data.json untuk menampilkan ringkasan laporan keuangan aplikasi.<br><br>• <b>Pilihan 5 (Lihat Menu Makanan):</b><br>Sistem membaca database (data.json) dan langsung menampilkan daftar menu makanan ke layar.<br><br>• <b>Pilihan 0 (Logout):</b><br>Mengakhiri sesi admin dan mengembalikan alur program keluar ke Menu Utama.</p> |
 | 4. Menu Login Sebagai User | <img width="2407" height="3662" alt="Menu User (1) jpg" src="https://github.com/user-attachments/assets/72bc1a40-2378-4495-9fe9-00051ec99fe2" /> | <p>berikut ini adalah penjelasan alur flowchart dari menu login User.</p><p><b>1. Proses Masuk (Login) dan Validasi Percobaan</b><br>Saat pengguna memasukkan username dan password admin, Sistem memeriksa kecocokan data melalui database (data.json). Jika data yang dimasukkan salah, sistem akan menghitung atau mengecek batas percobaan (maksimal 3 kali). Jika belum 3 kali, admin diminta memasukkan ulang username dan passwordnya. Jika kesalahan mencapai batas maksimal 3 kali, alur program akan menolak akses dan mengembalikan pengguna ke Menu Utama. Jika data yang dimasukkan benar, alur dilanjutkan masuk ke halaman Menu User dan menampilkan menu utama user.</p><p><b>2. Tampilan Menu Utama User (Pilihan 0 - 4)</b><br>Setelah berhasil masuk, sistem menampilkan menu admin dan meminta input angka (0 sampai 4):<br><br>• <b>Pilihan 1 (Lihat Menu Makanan):</b> Sistem membaca data dari database (data.json) dan menampilkan daftar menu makanan yang tersedia beserta harganya kepada user.<br>• <b>Pilihan 2 (Pesan Makanan):</b> Alur masuk ke proses pemesanan, di mana user memilih menu, memasukkan jumlah pesanan, melakukan pengecekan saldo e-money, memproses transaksi pembelian, hingga sistem memperbarui saldo dan menyimpan catatan riwayat transaksi secara permanen ke dalam database (data.json).<br>• <b>Pilihan 3 (Top-Up E-Money):</b> Alur bagi user untuk menambah saldo digital (e-money). Sistem memproses nominal top-up, lalu memperbarui saldo akun user tersebut dan menyimpannya kembali ke database (data.json).<br>• <b>Pilihan 4 (Riwayat Transaksi Saya):</b> Sistem membaca data transaksi dari database (data.json) khusus untuk menampilkan catatan riwayat pembelian atau transaksi yang pernah dilakukan oleh user yang bersangkutan.<br>• <b>Pilihan 0 (Logout):</b> Keluar dari menu user dan mengembalikan alur program keluar ke Menu Utama.</p> |
 
-## DAFTAR FITUR SETIAP ROLE DALAM PROGRAM
+## Daftar Fitur Role dalam Program
 Program memiliki tiga tingkat akses: Pengunjung (pelanggan yang belum melakukan registrasi/login), User (pelanggan), dan Admin. Setelah login, program akan memeriksa nilai Role pada akun (fungsi main, baris 590-593). Akun admin diarahkan ke Menu Admin, sedangkan akun lain ke Menu User.
 
 ### 1. Pengunjung (Belum Login)
@@ -89,7 +89,7 @@ Admin adalah satu akun bawaan (username admin) yang dibuat otomatis oleh program
 | 5 | Lihat Menu Makanan | Menampilkan daftar menu, sama seperti pada User. |
 | 6 | Logout | Kembali ke menu awal. |
 
-## HASIL OUTPUT PROGRAM
+## Hasil Output Program
 
 | NAMA OUTPUT | GAMBAR OUTPUT |
 | :----: | :----: |
