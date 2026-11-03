@@ -3,20 +3,20 @@
 Sistem Pemesanan Makanan Online
 
 Anggota & Peran:
-- Rafik Anugrah Yana (Konsep, Coding)
+1. Rafik Anugrah Yana (Konsep, Coding)
   1. Referensi konsep program
   2. Coding
   3. Menjelaskan program di Laporan
   4. Mencari bug dan error
-- Wahyu Farras Zaky (Laporan)
+2. Wahyu Farras Zaky (Laporan)
   1. Perancangan Laporan
   2. Menjelaskan program di Laporan
   3. Finishing Laporan
-- Septiya Maharani (Konsep flowchart login admin dan registrasi)
+3. Septiya Maharani (Konsep flowchart login admin dan registrasi)
   1. Perancangan Laporan
   2. Menjelaskan program di Laporan
   3. Finishing Laporan
-- Nila Amelia Nabilla (Konsep flowchart login user dan menu utama)
+4. Nila Amelia Nabilla (Konsep flowchart login user dan menu utama)
   1. Pengembangan alur flowchart
   2. Membuat Flowchart User dan menu utama
   3. Mengecek alur flowchart
