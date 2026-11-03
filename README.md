@@ -69,26 +69,31 @@ Tampilan 2. Tambah Menu (Menu Berhasil Ditambahkan) | <img width="330" height="3
 | Tampilan 5. Lihat Menu Makanan | <img width="320" height="377" alt="5 Lihat menu makanan" src="https://github.com/user-attachments/assets/9c5282a5-bc2e-41b7-a159-46937fbe8550" /> | 
 | Tampilan Jika Gagal Keluar Dari menu utama Admin | <img width="186" height="247" alt="Gagal Keluar menu utama admin" src="https://github.com/user-attachments/assets/99e22348-5192-4314-92e8-df64b1608a3c" /> |
 | Tampilan Berhasil Keluar Menu Utama Admin | <img width="278" height="252" alt="0 Logout menu utama admin" src="https://github.com/user-attachments/assets/da2a8a0a-d5f9-4f84-bbdb-245af781097d" /> |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Menu Login User | <img width="261" height="177" alt="login menu user" src="https://github.com/user-attachments/assets/bc425cc7-b273-4db6-8966-434154c369ca" /> |
+| Login User Gagal |
+| Input User Tidak Valid | <img width="190" height="376" alt="user tdk valid" src="https://github.com/user-attachments/assets/0e34e64a-1014-4103-b998-3a79bbdf74c1" /> |
+| Tampilan Menu 1 Lihat Menu Makanan | <img width="298" height="364" alt="user input 1" src="https://github.com/user-attachments/assets/ab7b586a-79f4-4aa1-be7e-7cf8a8323073" /> | 
+| Tampilan id Makanan Tidak Valid | <img width="337" height="404" alt="input id makanan tidak valid" src="https://github.com/user-attachments/assets/2b266390-c036-4f7f-980b-a3fda4e9b651" /> |
+| Tampilan Menu 2 Pesan Makanan | <img width="333" height="253" alt="user input 2" src="https://github.com/user-attachments/assets/d5f37479-c0f8-4595-9d59-23a7195ce6fd" /> |
+| Tampilan Apabila id tidak ditemukan | <img width="675" height="755" alt="image" src="https://github.com/user-attachments/assets/0f6ee601-c795-4e12-be44-d6a0ba4028ed" /> |
+| Tampilan Apabila id bukan angka bulat | <img width="713" height="314" alt="image" src="https://github.com/user-attachments/assets/5fbd5105-7b1b-4e2d-8221-83e2ca48972b" /> |
+| Tampilan Apabila input Pesanan Melebihi Batas | <img width="597" height="313" alt="image" src="https://github.com/user-attachments/assets/19746188-b924-4e14-ad6c-8c686541566c" /> |
+| Item di tambahkan ke keranjang | <img width="660" height="335" alt="image" src="https://github.com/user-attachments/assets/cdfa2a80-c303-40ac-a16e-8d508e4b8308" /> |
+| Tampilan Apabila id tidak 0/b | <img width="652" height="348" alt="image" src="https://github.com/user-attachments/assets/5ea141ab-f51f-4d9d-a83c-4d61d4a2e4d5" /> |
+| Tampilan Apabila Input b (batal) | <img width="650" height="377" alt="image" src="https://github.com/user-attachments/assets/d8672bc8-69b6-4657-b79a-856b9ca3d7cc" /> |
+| Tampilan Apabila Input 0 (chekout) | <img width="663" height="546" alt="image" src="https://github.com/user-attachments/assets/9429dbb9-7533-4515-8c12-b78f6c542a17" /> |
+| Tampilan Apabila Saldo Tidak Terisi | <img width="655" height="792" alt="image" src="https://github.com/user-attachments/assets/4154368f-97af-4db7-9303-457fc9e3e4d1" /> |
+| Tampilan Pembayaran Dibatalkan | <img width="655" height="589" alt="image" src="https://github.com/user-attachments/assets/dfb70795-ae77-4503-826a-6e83a7130414" /> |
+| Tampilan Apabila Terbayar | <img width="685" height="750" alt="image" src="https://github.com/user-attachments/assets/376bdc7c-83e9-42bb-85c6-5987764205ed" /> |
+| Tampilan Menu 3 Top-Up E-Money | <img width="541" height="261" alt="image" src="https://github.com/user-attachments/assets/d7eb9c17-2253-4b1d-b6fc-46d7766cf591" /> |
+| Tampilan Apabila Input b (batal) | <img width="520" height="482" alt="image" src="https://github.com/user-attachments/assets/34da15e6-813f-496e-9ee4-e1497f6cf021" /> |
+| Tampilan Apabila Nominal Tidak Berupa Angka | <img width="626" height="304" alt="image" src="https://github.com/user-attachments/assets/4b5c9d90-6475-46a6-8625-da8c68e93abb" /> |
+| Tampilan Apabila Berhasil Top-Up | <img width="541" height="289" alt="image" src="https://github.com/user-attachments/assets/ddcd087f-8c10-43ac-badc-beef2fee9bc0" /> |
+| Tampilan Menu 4 Riwayat Transaksi Saya | <img width="965" height="338" alt="image" src="https://github.com/user-attachments/assets/a6d7011a-1ab3-4f22-97f1-931521133405" /> |
+| Tampilan jika input n ( tidak cetak invoice) | <img width="983" height="401" alt="image" src="https://github.com/user-attachments/assets/8273cf18-8aa2-43a4-a457-866ec1a0a8e8" /> |
+| Tampilan Jika Input y ( Cetak Input ) | <img width="970" height="818" alt="image" src="https://github.com/user-attachments/assets/053eea70-8128-4602-8948-ad8fdbe93502" /> |
+| Tampilan Jika kode transaksi tidak valid | <img width="957" height="223" alt="image" src="https://github.com/user-attachments/assets/c4e7dddc-56b2-40de-adfc-3d254f03f2aa" /> |
+| Tampilan Menu 0 Logout | <img width="534" height="514" alt="image" src="https://github.com/user-attachments/assets/90a1b96e-78c2-4399-8a41-2972d74c6d0e" /> |
 
 
 
