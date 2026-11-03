@@ -29,3 +29,5 @@ Tujuan:
 FLOWCHART
 
 Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang menggambarkan alur proses kerja sistem, mulai dari proses awal hingga proses akhir. Flowchart ini dibuat untuk mempermudah pemahaman terhadap tahapan dan alur kerja sistem yang dikembangkan.
+
+FJDHFUJDHFJ
