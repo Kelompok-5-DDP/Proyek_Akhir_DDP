@@ -39,8 +39,8 @@ Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang mengga
 
 | NAMA OUTPUT | GAMBAR OUTPUT |
 | :----: | :----: |
-| Menu Admin | <img width="507" height="234" alt="image" src="https://github.com/user-attachments/assets/f9591384-5962-429e-93c1-aecd8a2a146c" /> |
-| Menu Admin Apabila pilihan menu tidak valid | <img width="536" height="506" alt="image" src="https://github.com/user-attachments/assets/bd7b20d6-5e95-43df-adc5-b81266ed6c4e" /> |
+| Menu Utama | <img width="507" height="234" alt="image" src="https://github.com/user-attachments/assets/f9591384-5962-429e-93c1-aecd8a2a146c" /> |
+| Menu Utama Apabila pilihan menu tidak valid | <img width="536" height="506" alt="image" src="https://github.com/user-attachments/assets/bd7b20d6-5e95-43df-adc5-b81266ed6c4e" /> |
 | Tampilan Input 3 Lihat Menu Makanan | <img width="575" height="720" alt="image" src="https://github.com/user-attachments/assets/de48e422-0532-4975-9bd3-60c54e2fa059" /> |
 | Tampilan Input 0 Keluar | <img width="508" height="236" alt="image" src="https://github.com/user-attachments/assets/d343d597-1a5a-4cfc-80fd-f35cd3e07879" /> | 
 | Registrasi | <img width="317" height="380" alt="registrasi berhasil" src="https://github.com/user-attachments/assets/d712025a-d762-410a-b32c-d2dd7196cca8" /> |
@@ -48,7 +48,47 @@ Berikut ini merupakan flowchart dari sistem pemesanan makanan online yang mengga
 | Menu Login Admin Berhasil | <img width="275" height="314" alt="login admin berhasil" src="https://github.com/user-attachments/assets/8f99e310-2377-4bc7-8ec8-8aaf60d84df1" /> |
 | Tampilan Menu Pilihan 1. Kelola menu makanan (CRUD) | <img width="233" height="296" alt="Tampilan pilihan 1 " src="https://github.com/user-attachments/assets/26c313e9-d8bc-43fa-b380-e71e69264b5d" /> |
 | Tampilan 1. Lihat Menu | <img width="347" height="353" alt="1 Lihat Menu" src="https://github.com/user-attachments/assets/2e7957f2-fe1d-4b70-9986-0ec5a2a6c42d" /> |
-| wuwuwyuw
+| Tampilan 2. Tambah Menu( nama tidak boleh kosong) | <img width="226" height="257" alt="Tambah menu (Nama tidak boleh kosong)" src="https://github.com/user-attachments/assets/915be5dd-e493-46ab-a481-0eb23d08cd6d" /> |
+| Tampilan 2. Tambah Menu (Katagori Salah) | <img width="281" height="263" alt="Tambah menu (Katagori salah)" src="https://github.com/user-attachments/assets/6c83edba-0f09-46d7-8de5-f2b34cfdbc03" /> |
+| Tampilan 2. Tambah Menu (Menu Dibatalkan) | <img width="347" height="201" alt="Tambah menu (menu dibatalkan)" src="https://github.com/user-attachments/assets/c147a733-23fc-46df-b81b-fe68fb908b17" /> |
+Tampilan 2. Tambah Menu (Menu Berhasil Ditambahkan) | <img width="330" height="305" alt="Tambah menu (menu berhasil ditambahkan" src="https://github.com/user-attachments/assets/3c13c5ed-8004-4830-8145-fae930da5440" /> |
+| Tampilan 3. Ubah Menu ( ID Tidak Ditemukan ) | <img width="326" height="387" alt="Ubah menu (id tidak ditemukan" src="https://github.com/user-attachments/assets/7ba67fc3-b318-4d24-9af6-638d398df98b" /> | 
+| Tampilan 3. Ubah Menu ( Ubah Gagal ) |<img width="426" height="419" alt="Ubah menu (ubah gagal)" src="https://github.com/user-attachments/assets/d64e8eeb-8165-4807-b18f-53816b2afab7" />
+| Tampilan 3. Ubah Menu ( Menu Berhasil Diubah ) | <img width="362" height="423" alt="Ubah menu (menu berhasil di ubah" src="https://github.com/user-attachments/assets/4e8b57f4-e0da-40fb-b081-b44134044dd4" /> | 
+| Tampilan 4. Hapus Menu ( ID Menu Tidak Ditemukan ) | <img width="309" height="387" alt="Hapus menu (Id tidak ditemukan)" src="https://github.com/user-attachments/assets/6e9f1d1c-8874-4fdb-92d4-e03d0dae4a0a" /> |
+| Tampilan 4. Hapus Menu ( Hapus Menu Batal) | <img width="307" height="403" alt="Hapus menu (hapus batal)" src="https://github.com/user-attachments/assets/27869293-c6e7-4271-878c-da00ba1b4f82" /> |
+| Tampilan 4. Hapus Menu ( Hapus Menu Berhasil ) | <img width="320" height="405" alt="Hapus menu (hapus berhasil)" src="https://github.com/user-attachments/assets/cefe4080-fdbc-4baf-b816-8274ecd2178f" /> |
+| Tampilan 0. Kembali (Keluar dari Menu kelola menu) | <img width="215" height="236" alt="0 kembali menu utama admin" src="https://github.com/user-attachments/assets/fb36a887-fa68-409e-8c1d-c1c9db3751b7" /> |
+| Gagal Keluar dari Kelola Menu | <img width="212" height="230" alt="Kelola menu tidak valid" src="https://github.com/user-attachments/assets/309da6fe-e4c2-4344-95dd-7e4274598bb0" /> | 
+| Tampilan Menu Utama Admin 2. Lihat Seluruh Akun | <img width="221" height="300" alt="Menu admin 2 Lihat Seluruh akun" src="https://github.com/user-attachments/assets/80bb27e8-85b6-4155-96b1-84f97fe7cadb" /> | 
+| Tampilan Menu Utama Admin 2. Lihat Seluruh Akun ( Tidak Hapus Akun User ) | <img width="222" height="416" alt="Menu admin 2 Lihat seluruh akun tidak hapus" src="https://github.com/user-attachments/assets/0c7385a8-6d26-4bac-90ce-d563da8c01e9" /> 
+| Tampilan Menu Utama Admin 2. Lihat Seluruh Akun ( Berhasil Hapus Akun User ) | <img width="229" height="419" alt="2  Lihat akun (hapus berhasil)" src="https://github.com/user-attachments/assets/809e3236-b667-4f39-afd8-9609839ada81" /> |
+| Tampilan 3. Riwayat seluruh akun ( Tidak cetak invois ) | <img width="486" height="342" alt="3  riwayat seluruh transaksi (tidak cetak invois" src="https://github.com/user-attachments/assets/ea1ae908-fed7-405b-a218-e55ff4c5fdf7" /> |
+|  Tampilan 3. Riwayat seluruh akun ( cetak invois berhasil ) | <img width="502" height="426" alt="invois berhasil di cetak" src="https://github.com/user-attachments/assets/455d449c-ebf2-4494-9502-57595b4666f2" /> |
+| Tampilan 4. Laporan Ringkas | <img width="237" height="319" alt="4  Laporan ringkas" src="https://github.com/user-attachments/assets/33ad71b6-c5ca-481e-a9bf-07014320e596" /> |
+| Tampilan 5. Lihat Menu Makanan | <img width="320" height="377" alt="5 Lihat menu makanan" src="https://github.com/user-attachments/assets/9c5282a5-bc2e-41b7-a159-46937fbe8550" /> | 
+| Tampilan Jika Gagal Keluar Dari menu utama Admin | <img width="186" height="247" alt="Gagal Keluar menu utama admin" src="https://github.com/user-attachments/assets/99e22348-5192-4314-92e8-df64b1608a3c" /> |
+| Tampilan Berhasil Keluar Menu Utama Admin | <img width="278" height="252" alt="0 Logout menu utama admin" src="https://github.com/user-attachments/assets/da2a8a0a-d5f9-4f84-bbdb-245af781097d" /> |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
